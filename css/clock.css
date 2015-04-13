@@ -1,0 +1,49 @@
+.clock-container{
+	width:360px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.clock-column{
+	width:50px;
+	float:left;
+	
+}
+
+ul.clock-dot-list{
+	list-style-type:none;
+}
+
+.clock-dot-list li{
+	padding-bottom:5px;
+}
+
+.highted-circle {
+  display: block;
+
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  background: radial-gradient(circle at 10px 10px, #4169E1, #000);
+}
+
+.circle{
+  display: block;
+
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  background: radial-gradient(circle at 10px 10px, #C0C0C0, #000);
+}
+
+.place-holder{
+  display: block;
+
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  background: radial-gradient(circle at 10px 10px, transparent, transparent);
+}
